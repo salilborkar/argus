@@ -9,7 +9,7 @@ import os
 
 # --- Gemini ---
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-GEMINI_MODEL = "gemini-2.0-flash"
+GEMINI_MODEL = "gemini-3.5-flash"
 
 if not GEMINI_API_KEY:
     raise EnvironmentError(
